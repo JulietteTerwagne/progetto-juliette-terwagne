@@ -1,0 +1,323 @@
+<!doctype html> <!-- necessario anche per motivi legali -->
+<html lang="it">
+<!-- head -->
+
+<head>
+    <!-- charset -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- il titolo del sito riportato all'interno del tag title compare nella finestra del browser -->
+    <title>Tutorial sviluppo web</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+</head>
+
+<!-- body -->
+
+<body>
+    <!-- header -->
+    <header class="pb-3 pt-3">
+        <img class="mx-auto d-block logo" src="img/logo.png">
+        <h1 class="text-center"><mark class="bg-pink text-light">Tutorial sviluppo web</mark></h1>
+    </header>
+
+    <!-- main -->
+    <main class="pt-2">
+        <section class="container-fluid pb-5 pt-5">
+            <div class="row">
+                <div class="col-md-3 bg-violet pb-5 pt-5">
+                    <!-- indice bootstrap -->
+                    <div>
+                        <h2><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" class="text-light"
+                                title="Bootstrap v.4.6.x" target="_blank"><u>Bootstrap</u></a></h2>
+                        <ol>
+                            <!-- setup -->
+                            <li>
+                                <b>Bootstrap setup</b>
+                                <ul>
+                                    <li><a href="#setup-cdn">Bootstrap setup via CDN</a></li>
+                                    <li><a href="#setup-down">Bootstrap setup via download</a></li>
+                                </ul>
+                            </li>
+                            <!-- components -->
+                            <li>
+                                <b>Bootstrap components</b>
+                                <ul>
+                                    <li>
+                                        <a href="#comp-basic">Basic components</a>
+                                        <span> | </span>
+                                        <span><a href="#button">Button</a></span>
+                                        <span><a href="#navbar">Navbar</a></span>
+                                    </li>
+                                    <li>
+                                        <a href="#comp-adv">Advanced components</a>
+                                        <span> | </span>
+                                        <span><a href="#modal">Modal</a></span>
+                                        <span><a href="#tooltip">Tooltip</a></span>
+                                        <span><a href="#popover">Popover</a></span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- icons -->
+                            <li>
+                                <b>Bootstrap icons</b>
+                                <ul>
+                                    <li>
+                                        <a href="#icons-setup">Icons setup</a>
+                                        <span> | </span>
+                                        <span><a href="#icons-cdn">Icons setup via CDN</a></span>
+                                        <span><a href="#icons-down">Icons setup via download</a></span>
+                                    </li>
+                                    <li>
+                                        <a href="#font-vs-svg">Differenza fra icon font e SVG</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                    <!-- indice github -->
+                    <div>
+                        <h2><a href="https://github.com/" class="text-light" title="GitHub"
+                                target="_blank"><u>GitHub</u></a></h2>
+                        <ol>
+                            <!-- registrazione -->
+                            <li>
+                                <b><a href="#github-register">Registrazione a GitHub</a></b>
+                            </li>
+                            <li>
+                                <b>Storage e pubblicazione di un sito web</b>
+                                <ul>
+                                    <li><a href="#github-repo">Repository e upload di file</a></li>
+                                    <li><a href="#github-modify-on">Modifica di un file online</a></li>
+                                    <li><a href="#github-modify-off">Download di un file, modifica offline e upload</a>
+                                    </li>
+                                    <li><a href="#github-pages">Pubblicazione di un sito web tramite Pages</a></li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- video -->
+                <div class="col-md-9">
+                    <div class="col-md-12 container-video ml-0 pl-0">
+                        <!-- video bootstrap -->
+                        <ol>
+                            <!-- setup -->
+                            <li>
+                                <h2>Bootstrap setup</h2>
+                                <ul>
+                                    <!-- setup con CDN -->
+                                    <li>
+                                        <h3 id="setup-cdn">Bootstrap setup via CDN
+                                        </h3>
+                                        <video controls width="100%" playsinline>
+                                            <source src="bootstrap-setup/bootstrap-setup-cdn.mp4" type="video/mp4">
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <h3 id="setup-down">Bootstrap setup via
+                                            download</h3>
+                                        <video controls width="100%" playsinline>
+                                            <source src="bootstrap-setup/bootstrap-setup-download.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- components -->
+                            <li class="pt-5">
+                                <h2 id="setup-cdn">Bootstrap components</h2>
+                                <ul>
+                                    <!-- basic -->
+                                    <li>
+                                        <h3 id="comp-basic">Basic components</h3>
+                                        <!-- button -->
+                                        <h4 id="button">Button</h4>
+                                        <video controls width="100%" playsinline>
+                                            <source src="bootstrap-component-basic/bootstrap-component-button.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                        <h4>Variazioni di button</h4>
+                                        <video controls width="100%" playsinline>
+                                            <source
+                                                src="bootstrap-component-basic/bootstrap-component-button-classi.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                        <!-- navbar -->
+                                        <h4 id="navbar">Navbar</h4>
+                                        <h5>Navbar pt.1</h5>
+                                        <video controls width="100%" playsinline>
+                                            <source src="bootstrap-component-basic/bootstrap-component-navbar-1.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                        <h5>Navbar pt.2</h5>
+                                        <video controls width="100%" playsinline>
+                                            <source src="bootstrap-component-basic/bootstrap-navbar-2.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                    </li>
+                                    <!-- advanced -->
+                                    <li class="pt-5">
+                                        <h3 id="comp-adv">Advanced components</h3>
+                                        <!-- modal -->
+                                        <h4 id="modal">Modal</h4>
+                                        <video controls width="100%" playsinline>
+                                            <source
+                                                src="bootstrap-component-advanced/bootstrap-advanced-component-modal.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                        <!-- tooltip -->
+                                        <h4 id="tooltip">Tooltip</h4>
+                                        <video controls width="100%" playsinline>
+                                            <source
+                                                src="bootstrap-component-advanced/bootstrap-advanced-component-tooltip.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                        <!-- popover -->
+                                        <h4 id="popover">Popover</h4>
+                                        <video controls width="100%" playsinline>
+                                            <source
+                                                src="bootstrap-component-advanced/bootstrap-advanced-component-popover.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- icons -->
+                            <li class="pt-5">
+                                <h2 id="icons-setup">Bootstrap icons</h2>
+                                <ul>
+                                    <!-- icons setup cdn -->
+                                    <li>
+                                        <h3 id="icons-cdn">Icons setup via CDN</h3>
+                                        <!-- icons cdn in html -->
+                                        <h4>CDN in HTML</h4>
+                                        <video controls width="100%" playsinline>
+                                            <source
+                                                src="bootstrap-icons/bootstrap-icons-cdn/bootstrap-icons-cdn-html.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                        <!-- icons cdn in css -->
+                                        <h4>CDN in CSS</h4>
+                                        <video controls width="100%" playsinline>
+                                            <source
+                                                src="bootstrap-icons/bootstrap-icons-cdn/bootstrap-icons-cdn-css.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                    </li>
+                                    <!-- icons setup download -->
+                                    <li class="pt-5">
+                                        <h3 id="icons-down">Icons setup via download
+                                        </h3>
+                                        <!-- icons cdn in html -->
+                                        <video controls width="100%" playsinline>
+                                            <source
+                                                src="bootstrap-icons/bootstrap-icons-download/bootstrap-icons-download.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                    </li>
+                                    <!-- icon font vs svg -->
+                                    <li class="pt-5">
+                                        <h3 id="font-vs-svg">Differenza fra icon font
+                                            e SVG</h3>
+                                        <video controls width="100%" playsinline>
+                                            <source
+                                                src="bootstrap-icons/bootstrap-icons-svg-vs-font-icon/bootstrap-icons-svg-vs-font.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <!-- video github -->
+                        <ol>
+                            <!-- registrazione -->
+                            <li>
+                                <h2 id="github-register">Registrazione a GitHub</h2>
+                                <video controls width="100%" playsinline>
+                                    <source src="github/github-iscrizione.mp4" type="video/mp4">
+                                </video>
+                            </li>
+                            <!-- storage -->
+                            <li class="pt-5">
+                                <h2>Storage e pubblicazione di un sito web</h2>
+                                <ul>
+                                    <!-- repository -->
+                                    <li>
+                                        <h3 id="github-repo">Repository e upload di file</h3>
+                                        <video controls width="100%" playsinline>
+                                            <source src="github/github-repository-and-upload.mp4" type="video/mp4">
+                                        </video>
+                                    </li>
+                                    <!-- modifica online -->
+                                    <li>
+                                        <h3 id="github-modify-on">Modifica di un file online</h3>
+                                        <video controls width="100%" playsinline>
+                                            <source src="github/github-modifica-online.mp4" type="video/mp4">
+                                        </video>
+                                    </li>
+                                    <!-- modifica offline -->
+                                    <li>
+                                        <h3 id="github-modify-off">Download di un file, modifica offline e upload</h3>
+                                        <video controls width="100%" playsinline>
+                                            <source src="github/github-modifica-offline.mp4" type="video/mp4">
+                                        </video>
+                                    </li>
+                                    <!-- Pubblicazione di un sito web tramite Pages -->
+                                    <li class="pt-5">
+                                        <h3 id="github-pages">Pubblicazione di un sito web tramite Pages</h3>
+                                        <video controls width="100%" playsinline>
+                                            <source src="github/github-pages.mp4" type="video/mp4">
+                                        </video>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>  
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <!-- informazioni secondarie -->
+        <div class="container-fluid bg-pink text-center text-light pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>Materiali integrativi:</h4>
+                        <a href="https://github.com/IU-lab-2023-2024" class="text-light" title="Materiali integrativi"
+                            target="_blank"><u>https://github.com/IU-lab-2023-2024</u></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="container-fluid bg-violet">
+            <p class="mb-0 pb-1 pt-1 text-center text-light">© Copyright (c) 2023-2024 by /DH.arc - Digital Humanities
+                Advanced Research
+                Centre.</p>
+        </div>
+    </footer>
+
+    <!-- script sempre prima della chiusura del body -->
+    <!-- jquery -->
+    <!-- se si intende utilizzare bootstrap è sempre necessario includere prima una libreria di JavaScript chiamata jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
