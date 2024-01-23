@@ -1,23 +1,107 @@
-/* custom css */
+/* Reset des marges et des paddings */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
 
-/* html */
-html {-webkit-font-smoothing: antialiased;}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
 
-/* a */
-a {color: #F7F6F4;}
+header {
+    background-color: #4c0000; /* Bordeaux foncé */
+    color: #fff; /* Texte en blanc pour contraste */
+    text-align: center;
+    padding: 20px;
+}
 
-/* background */
-.bg-pink {background: #A75460;}
-.bg-yellow {background: #D5DF2A;}
-.bg-violet {background: #959CBD;}
-.bg-white {background: #F7F6F4;}
+#logo img {
+    max-width: 100%;
+}
 
-/* logo */
-.logo {height: 10vh;}
+#title {
+    margin-top: 10px; /* Espacement entre le logo et le titre */
+}
 
-/* container video */
-.container-video {height: 80vh; overflow-y: scroll; overflow-x: none;}
-.container-video::-webkit-scrollbar {width: 8px; height: 8px;}
-.container-video::-webkit-scrollbar-thumb {background: linear-gradient(13deg, #f9d4ff 14%,#c7ceff 64%); border-radius: 10px;}
-.container-video::-webkit-scrollbar-thumb:hover{background: linear-gradient(13deg, #c7ceff 14%,#f9d4ff 64%);}
-.container-video::-webkit-scrollbar-track{background: #ffffff; border-radius: 10px; box-shadow: inset 7px 10px 12px #f0f0f0;}
+nav {
+    background-color: #4c0000; /* Bordeaux foncé */
+    color: #fff;
+    text-align: center;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.scrollmenu a {
+    display: inline-block;
+    padding: 14px 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.scrollmenu a:hover {
+    background-color: #333; /* Légère teinte plus foncée au survol */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+
+#content-section {
+    margin-top: 20px; /* Espacement entre l'image et le contenu */
+}
+
+h3 {
+    color: #4c0000; /* Bordeaux foncé */
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #4c0000; /* Bordeaux foncé */
+    margin-bottom: 5px;
+}
+
+iframe {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Centre la vidéo horizontalement */
+}
+
+footer {
+    background-color: #4c0000; /* Bordeaux foncé */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff; /* Couleur du texte pour les liens dans le footer */
+    text-decoration: none;
+    margin: 0 10px; /* Espacement entre les liens dans le footer */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
